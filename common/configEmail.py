@@ -79,11 +79,11 @@ class SendEmail(object):
 if __name__ == '__main__':
     m = SendEmail(
         # 邮箱账号
-        username='zhangyw78@meicloud.com',
+        username='zxxxx@mxxxd.com',
         # 邮箱密码
-        passwd='Zyw19950824.',
+        passwd='',
         # 收件人邮箱
-        recv=['785712604@qq.com'],
+        recv=[''],
         title='测试自动发送邮件',
         content='测试发送邮件',
         file=r'D:\pyhton\xmyInterfaceTest\result\report.html',

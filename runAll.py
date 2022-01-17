@@ -8,9 +8,9 @@ from common.configEmail import SendEmail
 import common.Log
 
 send_mail = SendEmail(
-    username='zhangyw78@meicloud.com',
-    passwd='Zyw19950824.',
-    recv=['785712604@qq.com'],
+    username='zxxxx@mxxxx.com',
+    passwd='',
+    recv=[''],
     title='测试报告',
     content='测试报告',
     file=r'D:\pyhton\xmyInterfaceTest\result\report.html',
