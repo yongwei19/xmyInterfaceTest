@@ -16,7 +16,7 @@ class SendEmail(object):
         self.username = username
         # 密码
         self.passwd = passwd
-        # 收件人，多个要穿List['aa@qq.com','bb@qq.com']
+        # 收件人，多个要传List['aa@qq.com','bb@qq.com']
         self.recv = recv
         # 邮件标题
         self.title = title

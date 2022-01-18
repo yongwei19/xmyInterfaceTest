@@ -7,8 +7,6 @@ from geturlParams import geturlParams
 import urllib.parse
 import readExcel
 
-# import pythoncom
-# pythoncom.CoInitialize()
 
 # 调用我们的geturlParams 获取我们拼接的URL
 url = geturlParams().get_url()

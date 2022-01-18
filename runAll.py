@@ -40,10 +40,7 @@ class AllTest:
         log.info('caseList: %s', self.caseList)
 
     def set_case_list(self):
-        """
-        取caselist.txt文件中的用例名称，并添加到caselist元素组
-        :return:
-        """
+        # 取caselist.txt文件中的用例名称，并添加到caselist元素组
         fb = open(self.caseListFile)
         for value in fb.readlines():
             data = str(value)
